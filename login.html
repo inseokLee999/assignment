@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes, minimum-scale=0.5,maximum-scale=3.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css"><!--아이콘을 사용할수 있게해줌-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"><!--슬라이드-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/common.js"></script>
+    <title>뉴마커스 로그인</title>
+</head>
+<body>
+    <header>
+        <section class="site-top">
+            <div class="left">
+                <a href="#">
+                    <i class="xi-bars"></i>
+                </a>
+                <a href="#">
+                    <i class="xi-search"></i>
+                </a>
+            </div>
+            
+            <a href="#" class="logo">
+                <img src="images/logo.png" alt="로고">
+            </a>
+
+            <div class="right">
+                <a href="#">
+                    <i class="xi-user-o"></i>
+                </a>
+                <a href="#">
+                    <i class="xi-cart-o"></i>
+                </a>
+            </div>
+        </section>
+        <nav class="page_location">
+                <div class="xi-angle-left-thin"></div>
+            "회원 로그인"
+        </nav>
+    </header>
+    <main>
+        <div class="login_box">
+            <form class="login">
+                <fieldset>
+                    <legend>회원로그인</legend>
+                    <input type="text"
+                    id="loginId" placeholder="아이디">
+                    <input type="password" id="loginPwd" placeholder="비밀번호">
+                    <div class="inp_chk">
+                        <label><input type="checkbox">로그인 유지</label>
+                        <label><input type="checkbox">아이디 저장</label>
+                    </div>
+                    <div class="submit">
+                        <input type="submit" value="로그인">
+                    </div>
+                </fieldset>
+            </form>
+            <ul class="login_find">
+                <li>
+                    <a href="#">회원가입</a>
+                </li>
+                <li>
+                    <a href="#">아이디 찾기</a>
+                </li>
+                <li>
+                    <a href="#">비밀번호 찾기</a>
+                </li>
+            </ul>
+        </div>
+        <div class="sns_login_wrap">
+            <div class="tit">
+                <span class="montserrat">SNS간편 로그인</span>
+            </div>
+            <ul class="sns_login">
+                <li class="naver">
+                    <img src="images/naver_login.png">
+                </li>
+                <li class="kakao">
+                    <img src="images/kakao_login.png">
+                </li>
+            </ul>
+        </div>
+        <div class="guest_order_box">
+            <p class="guest_txt">
+                <div class="sub_txt">주문자 이름과 주문 번호를 입력해주세요</div>
+            </p>
+            <form>
+                <input type="text" id="orderNm" placeholder="주문자명">
+                <input type="text" id="orderNo" placeholder="주문번호">
+            </form>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
